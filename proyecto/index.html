@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Propiedades</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Cabecera Pagina -->
+
+    <header class="nav-container">
+      <div class="logo-container">
+        <div class="logo">RentClick</div>
+      </div>
+      <nav class="navbar">
+        <a href="#home"><button>Inicio</button></a>
+        <a href="#properties"><button>Propiedades</button></a>
+        <a href="#registrate"><button>Registrate</button></a>
+        <a href="#acerca"><button>Contacto</button></a>
+      </nav>
+    </header>
+
+    <!-- Sección de Home -->
+    <section class="home-section" id="home">
+      <h1>Encuentra tu propiedad ideal</h1>
+      <p>
+        Ya sea que estes comprando, vendiendo o rentando, nuestro equipo
+        experimentado esta aquí para guiarte en cada paso del camino
+      </p>
+      <img src="resources/casaHome.jpg" alt="Imagen Casa" class="homeImage" />
+    </section>
+
+    <!-- Sección de Propiedades -->
+    <section class="properties-section" id="properties">
+      <div class="text-section">
+        <h2>Propiedades</h2>
+        <p class="subtitle-section">
+          Explora alojamientos únicos descubre casas y cabañas que te esperan.
+          Encuentra el refugio perfecto para tu próxima aventura.
+        </p>
+      </div>
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <div class="carousel-item">
+            <img src="resources/cabaña1.jpg" alt="Imagen Cabaña" />
+            <div class="cabin-info">
+              <div class="cabin-price-name">
+                <p class="cabin-name">Cabaña en el Lago</p>
+                <p class="cabin-price">$150</p>
+              </div>
+              <p class="cabin-address">Avenida del Lago 456</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="resources/cabaña1.jpg" alt="Imagen Cabaña" />
+            <div class="cabin-info">
+              <div class="cabin-price-name">
+                <p class="cabin-name">Cabaña en el Lago</p>
+                <p class="cabin-price">$150</p>
+              </div>
+              <p class="cabin-address">Avenida del Lago 456</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="resources/cabaña1.jpg" alt="Imagen Cabaña" />
+            <div class="cabin-info">
+              <div class="cabin-price-name">
+                <p class="cabin-name">Cabaña en el Lago</p>
+                <p class="cabin-price">$150</p>
+              </div>
+              <p class="cabin-address">Avenida del Lago 456</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Formulario -->
+
+    <section class="form-section" id="registrate">
+      <div class="text-content">
+        <h1>Registrate y te llegaran las mejores ofertas</h1>
+      </div>
+
+
+
+      <div class="form-box">
+        <h2>Regístrate</h2>
+        <label for="nombre">Nombre</label>
+        <input type="text" />
+        <label for="apellido">Apellido</label>
+        <input type="text" />
+        <label for="email">Email</label>
+        <input type="text" />
+        <button type="submit">Registrar</button>
+      </div>
+    </section>
+
+    <!-- Sección del Footer -->
+    <footer id="acerca">
+      <div class="columns">
+        <section class="col-sec">
+          <h2>Quick Links</h2>
+          <ul class="ul-form">
+            <li class="li-form"><a href="#inicio">Inicio</a></li>
+            <li class="li-form"><a href="#propiedades">Propiedades</a></li>
+            <li class="li-form"><a href="#contacto">Contacto</a></li>
+            <li class="li-form"><a href="#acerca">Acerca de nosotros</a></li>
+          </ul>
+        </section>
+
+        <section class="col-sec">
+          <h2>Redes Sociales</h2>
+          <ul class="ul-form">
+            <li class="li-form"><a href="#">Facebook</a></li>
+            <li class="li-form"><a href="#">Instagram</a></li>
+            <li class="li-form"><a href="#">Twitter(x)</a></li>
+            <li class="li-form"><a href="#">LinkedIn</a></li>
+          </ul>
+        </section>
+
+        <section class="col-sec">
+          <h2>Suscripción al boletín</h2>
+          <p class="footer-p">
+            Manténgase actualizado con los últimos <br />
+            listados y noticias de RentClick. <br />
+            Suscríbete a nuestro boletín.
+          </p>
+          <div class="input-container">
+            <input
+              class="cont-input"
+              type="text"
+              placeholder="Ingresa tu correo electrónico"
+            />
+            <button class="cont-button" type="submit">Enviar</button>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
